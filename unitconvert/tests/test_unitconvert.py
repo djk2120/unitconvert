@@ -3,6 +3,9 @@ import pytest
 from unitconvert import temperature
 from unitconvert import distance
 
+# for each function in unitconvert
+# test known distance or temperature
+
 def test_fahrenheit_to_celsius():
     should_be_10 = temperature.fahrenheit_to_celsius(50)
     assert round(should_be_10,4)==10
