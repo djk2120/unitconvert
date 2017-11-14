@@ -1,5 +1,5 @@
 """
-A python module for converting distances
+A short python module for converting distances
 """
 def miles_to_kilometers(d_in_miles):
     """Convert distance from miles to kilometers
